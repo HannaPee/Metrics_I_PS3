@@ -5,6 +5,7 @@
 #load packages#
 library(dplyr)
 library(ggplot2)
+library(readr)
 
 ##### Q 1 ################
 
@@ -128,6 +129,24 @@ ggsave(
   height   = 6
 )
 
-######## e #########
+############## Q2 ###########################
+
+
+######### d ##############
+
+#Import dataset # 
+df_2 <- read_csv("ProblemSet3data.csv")
+
+#### Run a grid search algorithm ### 
+
+# Define objective function # 
+
+
+
+obj <- function(r,D,k,B){
+  
+  
+  
+}
 
 
