@@ -329,3 +329,20 @@ print(
   type = "latex",
   include.rownames = FALSE
 )
+
+
+######### f #############
+
+#Regressing test score on funding, controlling for local income # 
+
+ols_4 <- OLS_estim(df_schools$test_score, df_schools[, c("fund", "local_inc")])
+
+
+
+
+
+
+
+
+
+
